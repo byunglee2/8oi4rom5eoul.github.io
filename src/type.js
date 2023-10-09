@@ -11,10 +11,10 @@ new TypeIt(".home__title--strong", {
   .delete() // |
   .type("Machine Learning Engineer")
   .pause(1000)
-  .delete(25)
-  .type("Front-End Engineer")
-  .pause(1000)
   .move(-9)
+  .delete(16)
+  .type("Front-End")
+  .pause(1000)
   .delete(9)
   .type("Back-End")
   .pause(1000)
