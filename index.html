@@ -35,12 +35,16 @@
       src="https://kit.fontawesome.com/ccda540a2b.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- Javascript -->
     <script type="module" src="src/main.js" defer></script>
     <script type="module" src="src/projects.js" defer></script>
     <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
+
   </head>
   <body>
     <!-- Header -->
@@ -75,9 +79,9 @@
             src="images/profile without BG.png"
             alt="Byung's profile"
           />
-          <h2 class="home__title">
+          <h2 class="home__title" aria-labe="Hello, I'm Software Byung">
             Hello, <br />I&#39;m a
-            <strong class="home__title__strong">Software Engineer</strong>,
+            <strong class="home__title--strong">Software Engineer</strong>,
             Byung Seok Lee
           </h2>
           <p class="home__description">
