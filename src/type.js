@@ -1,6 +1,6 @@
 "use strict";
 
-new TypeIt(".home__title--strong", {
+new TypeIt(".home__title__strong", {
   loop: true,
   speed: 100,
 }) // Software Engineer|
