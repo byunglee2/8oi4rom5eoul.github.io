@@ -207,7 +207,7 @@ button:focus {
   margin-bottom: 1rem;
 }
 
-.home__title--strong {
+.home__title__strong {
   color: var(--color-accent);
 }
 
